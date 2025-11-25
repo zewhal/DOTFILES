@@ -1,0 +1,35 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 24,
+    "modules-left": ["hyprland/workspaces"],
+    "modules-center": ["clock"],
+    "modules-right": ["battery"],
+    "font": "JetBrainsMono Nerd Font 12",
+    "sep": " | ",
+    
+    "hyprland/workspaces": {
+        "format": "{icon}",
+        "format-icons": {
+            "active": "",
+            "default": "",
+            "empty": "○"
+        },
+        "persistent-workspaces": {
+            "*": [1,2,3,4,5]
+        }
+    },
+
+    "clock": {
+        "format": "{:%Y-%m-%d %H:%M}"
+    },
+
+
+    "battery": {
+     "format": "{capacity}%",
+     "format-charging": " {capacity}%",
+     "format-full": "{capacity}%",
+     "tooltip": true
+    }
+
+}

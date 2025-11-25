@@ -1,0 +1,25 @@
+
+* {
+    background: rgba(26, 26, 26, 0.4); 
+    color: #e0e0e0;              
+    font-family: "JetBrainsMono Nerd Font", "Noto Color Emoji", "Noto Sans CJK SC", "Noto Sans CJK JP", "Noto Sans CJK KR";
+    font-size: 12px;
+    border: none;
+    box-shadow: none;
+}
+
+* .module {
+    padding: 0 6px;
+    margin: 0 2px;
+    border-radius: 3px;
+}
+
+* .module:hover {
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.separator {
+    color: #e0e0e0;
+    margin: 0 2px;
+}
+
