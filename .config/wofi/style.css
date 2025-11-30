@@ -1,0 +1,52 @@
+window {
+    background-color: rgba(0, 0, 0, 0.92);
+    border: none;
+    border-radius: 8px;
+    padding: 8px;
+    margin: 0;
+}
+
+#outer-box {
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+}
+
+#inner-box {
+    background-color: transparent;
+}
+
+#input {
+    background-color: rgba(20, 20, 20, 0.8); /* Search bar */
+    color: #e0e0e0;
+    border-radius: 6px;
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#input:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+#scroll {
+    background-color: transparent;
+    border: none;
+}
+
+#entry {
+    padding: 6px 10px;
+    border-radius: 4px;
+    color: #d0d0d0;
+    background-color: transparent;
+}
+
+#entry:selected {
+    background-color: rgba(40, 40, 40, 0.8);
+    color: #ffffff;
+}
+
+#text {
+    margin-left: 4px;
+}
